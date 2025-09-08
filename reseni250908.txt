@@ -1,0 +1,89 @@
+using System;
+using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
+
+namespace ConsoleApp1
+{
+
+	public class Film
+	{
+		public string Nazev;
+		public string JmenoRezisera;
+		public string PrijmeniRezisera;
+		public int RokVzniku;
+		private List<int> hodnoceniList = new List<int>();
+		public double hodnoceni;
+		public double Hodnoceni 
+		{
+			get { return hodnoceni; }
+			private set { hodnoceni = value; } 
+		}
+
+		public void pridatHodnoceni(int value)
+		{
+			if (value < 0 || value > 5)
+			{
+				Console.WriteLine("Pls otevřený interval v celých číslech od 0 do 5.");
+			}
+			else
+			{
+				hodnoceniList.Add(value);
+				hodnoceni = hodnoceniList.Sum();
+				hodnoceni = hodnoceni / hodnoceniList.Count();
+			}
+		}
+	    public override string ToString()
+		{
+				return $"{this.Nazev} ({this.RokVzniku}; {this.PrijmeniRezisera}, {this.JmenoRezisera[0]}): {this.hodnoceni} ⭐";
+			}
+
+		public Film(string nazev, string jmenoRezisera, string prijmeniRezisera, int rokVzniku)
+		{
+				Nazev = nazev;
+				JmenoRezisera = jmenoRezisera;
+				PrijmeniRezisera = prijmeniRezisera;
+				RokVzniku = rokVzniku;
+				hodnoceni = 0;
+		}
+	}
+	internal class Program
+	{
+		static void Main(string[] args)
+		{
+			var rand = new Random();
+
+			List<Film> filmy = new List<Film>();
+			filmy.Add(new Film("test1", "Jan", "Franta", 2023));
+			filmy.Add(new Film("test52", "Karel", "Erben", 2027));
+			filmy.Add(new Film("test3", "Daniel", "Tuma", 20210));
+			foreach (Film film in filmy) 
+			{ 
+				for (int x = 0; x < 15; x++)
+				{
+					film.pridatHodnoceni(rand.Next(0,5));
+				}
+			}
+
+			Film nejdelsiNazev = filmy[0];
+			Film nejlepsiHodnoceni = filmy[0];
+			foreach (Film film in filmy)
+			{
+				if (film.Nazev.Length>nejdelsiNazev.Nazev.Length)
+				{
+					nejdelsiNazev = film;
+					nejlepsiHodnoceni = film;
+				}
+				if(film.hodnoceni < 3)
+				{
+					Console.WriteLine($"{film.Nazev} je odpad! Má hodnocení jen {film.hodnoceni}.");
+				}
+			}
+			Console.WriteLine(nejlepsiHodnoceni.ToString());
+			Console.WriteLine(nejdelsiNazev.ToString());
+			foreach(Film film in filmy)
+			{
+				Console.WriteLine(film.ToString());
+			}
+		}
+	}
+}
