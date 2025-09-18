@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using static System.Net.Mime.MediaTypeNames;
 
 
@@ -10,6 +11,11 @@ namespace BeastInLabyrinth
         public int y { get; set; }
 
         /// <summary>
+        /// sets the right hand relative vectors based on monster's direction
+        /// <para>direction 0 = pravaRuka[0] and so on</para>
+        /// </summary>
+        private int pravaRuka = { {1, 0},{0, 1},{-1, 0},{0, -1} }
+        /// <summary>
         /// 0 = up
         /// <para>1 = right</para>
         /// 2 = down
@@ -19,6 +25,7 @@ namespace BeastInLabyrinth
 
         public void krok(Bludiste bludiste)
         {
+            
             //pokud mas zed po prave strane a misto pred sebou, jdi dopredu
             //pokud mas zed po prave strane a zed pred sebou, otoc se doleva
             //pokud nemas zed po prave strane, otoc se doprava a udelej krok dopredu(zde muzu vzdy udelat krok dopredu protoze vim, ze tam neni zed)
@@ -29,8 +36,17 @@ namespace BeastInLabyrinth
 
         public bool jeZedPoPraveRuce(Bludiste bludiste)
         {
-            return false;
-        }
+            private int pravaRukaX = x + pravaRuka[direction][0];
+		    private int pravaRukaY = y + pravaRuka[direction][1];
+            if(bludiste.get(pravaRukaX).get(pravaRukaY) == 'X')
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+	    }
     }
     public class Bludiste
     {
