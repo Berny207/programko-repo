@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "stabilni manzelstvi/1.0.0": {
+        "runtime": {
+          "stabilni manzelstvi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "stabilni manzelstvi/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
