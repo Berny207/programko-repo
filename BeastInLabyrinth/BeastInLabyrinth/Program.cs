@@ -16,7 +16,7 @@ namespace BeastInLabyrinth
 		/// 2 = down
 		/// <para>3 = left</para>
 		/// </summary>
-		public int direction = -1{ get; set; }
+		public int direction { get; set; } = -1;
 		/// <summary>
 		/// monster's movement options
 		/// </summary>
@@ -66,7 +66,7 @@ namespace BeastInLabyrinth
 		{
 			int pravaRukaX = x + pohybovaMatice[(direction + smer) % (pohybovaMatice.Length / 2), 0];
 			int pravaRukaY = y + pohybovaMatice[(direction + smer) % (pohybovaMatice.Length / 2), 1];
-			if (bludiste.radky[pravaRukaY][pravaRukaX] == 'X')
+			if (bludiste.radky[pravaRukaY][pravaRukaX] != '.')
 			{
 				return true;
 			}
@@ -156,7 +156,9 @@ internal class Program
 			{
 				prisera.Krok(bludiste);
 			}
+			Console.WriteLine(i+1);
 			bludiste.vytiskniBludiste();
+			
 		}
 	}
 }
