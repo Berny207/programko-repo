@@ -16,7 +16,7 @@ namespace BeastInLabyrinth
 		/// 2 = down
 		/// <para>3 = left</para>
 		/// </summary>
-		public int direction { get; set; }
+		public int direction = -1{ get; set; }
 		/// <summary>
 		/// monster's movement options
 		/// </summary>
@@ -84,8 +84,9 @@ public class Bludiste
 
 	public List<List<char>> radky = new List<List<char>>();
 
-	public Prisera najdiPriseru()
+	public List<Prisera> najdiPrisery()
 	{
+		List<Prisera> prisery = new List<Prisera>();
 		Prisera prisera = new Prisera();
 		for (int y = 0; y < HEIGHT; y++)
 		{
@@ -110,10 +111,15 @@ public class Bludiste
 							prisera.direction = 3;
 							break;
 					}
+					if (prisera.direction != -1)
+					{
+						prisery.Add(prisera);
+						prisera = new Prisera();
+					}
 				}
 			}
 		}
-		return prisera;
+		return prisery;
 	}
 
 	public void vytiskniBludiste()
@@ -140,13 +146,16 @@ internal class Program
 		{
 			bludiste.radky.Add(Console.ReadLine().ToList());
 		}
-
-		Prisera prisera = bludiste.najdiPriseru();
+		List<Prisera> prisery = new List<Prisera>();
+		prisery = bludiste.najdiPrisery();
 
 		int N = 20;
 		for (int i = 0; i < N; i++)
 		{
-			prisera.Krok(bludiste);
+			foreach (Prisera prisera in prisery)
+			{
+				prisera.Krok(bludiste);
+			}
 			bludiste.vytiskniBludiste();
 		}
 	}
