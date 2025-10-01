@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bernatj.STUDENTI\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\stabilni manzelstvi.csproj": {}
+    "C:\\Users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\stabilni manzelstvi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bernatj.STUDENTI\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\stabilni manzelstvi.csproj": {
+    "C:\\Users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\stabilni manzelstvi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bernatj.STUDENTI\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\stabilni manzelstvi.csproj",
+        "projectUniqueName": "C:\\Users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\stabilni manzelstvi.csproj",
         "projectName": "stabilni manzelstvi",
-        "projectPath": "C:\\Users\\bernatj.STUDENTI\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\stabilni manzelstvi.csproj",
-        "packagesPath": "C:\\Users\\bernatj.STUDENTI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bernatj.STUDENTI\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\obj\\",
+        "projectPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\stabilni manzelstvi.csproj",
+        "packagesPath": "C:\\Users\\janbe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\bernatj.STUDENTI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\janbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -61,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
