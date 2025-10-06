@@ -1,0 +1,15 @@
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\bin\Debug\net8.0\UspornaNavigace.exe
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\bin\Debug\net8.0\UspornaNavigace.deps.json
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\bin\Debug\net8.0\UspornaNavigace.runtimeconfig.json
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\bin\Debug\net8.0\UspornaNavigace.dll
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\bin\Debug\net8.0\UspornaNavigace.pdb
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\UspornaNavigace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\UspornaNavigace.AssemblyInfoInputs.cache
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\UspornaNavigace.AssemblyInfo.cs
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\UspornaNavigace.csproj.CoreCompileInputs.cache
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\UspornaNavigace.sourcelink.json
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\UspornaNavigace.dll
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\refint\UspornaNavigace.dll
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\UspornaNavigace.pdb
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\UspornaNavigace.genruntimeconfig.cache
+C:\Users\bernatj.STUDENTI\source\repos\programko-repo\UspornaNavigace\UspornaNavigace\obj\Debug\net8.0\ref\UspornaNavigace.dll

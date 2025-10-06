@@ -1,0 +1,23 @@
+
+
+
+
+objekt mesto:
+	int ID
+	List<silnice> seznam silnic, co spojuji mesto
+objekt silnice:
+	int ID mestoOd
+	int ID mestoDo
+	bool paid
+	(ano, asi budu mit 2S silnic, ale pamet snad bude ok, kdyztak muzeme optimalizovat)
+
+
+
+hledaniCesty:
+	Djikstra: otevri si startovni vrchol:
+	ze vsech silnic, ktere maji alespon 1 vrchol otevreny, si vyber tu neprozkoumanou s nejmensi delkou
+	updatuj/otevri druhy vrchol, kam tato silnice vede - garance nejkratsi vzdalenosti
+
+	problem - co kdyz mam otevreny vrchol pouze pro placenou cestu a vedou z nho pouze placene cesty - slepa ulicka. 
+	placene cesty u vrcholu s pouze placenou cestou ignoruj - neexistuji
+	az tomuto vrcholu otevru dalsi cestu, budu stastny
