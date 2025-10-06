@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bernatj.STUDENTI\\source\\repos\\programko-repo\\stabilni manzelstvi\\",
+  "WorkspaceRootPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC95DC2C-F7C6-4C6B-A8EA-75C240F0E4B5}|stabilni manzelstvi\\stabilni manzelstvi.csproj|c:\\users\\bernatj.studenti\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC95DC2C-F7C6-4C6B-A8EA-75C240F0E4B5}|stabilni manzelstvi\\stabilni manzelstvi.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC95DC2C-F7C6-4C6B-A8EA-75C240F0E4B5}|stabilni manzelstvi\\stabilni manzelstvi.csproj|solutionrelative:stabilni manzelstvi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bernatj.STUDENTI\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\Program.cs",
               "RelativeDocumentMoniker": "stabilni manzelstvi\\Program.cs",
-              "ToolTip": "C:\\Users\\bernatj.STUDENTI\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\Program.cs",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\stabilni manzelstvi\\stabilni manzelstvi\\Program.cs",
               "RelativeToolTip": "stabilni manzelstvi\\Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAwFgAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwG0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-29T06:49:58.458Z",
               "EditorCaption": ""

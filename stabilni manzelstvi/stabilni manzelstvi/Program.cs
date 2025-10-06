@@ -23,6 +23,7 @@ namespace stabilni_manzelstvi
             {
                 return 0;
             }
+
             int bestRequest = -1;
             int bestRequestRating = -1;
             foreach(int request in requests)
@@ -34,7 +35,15 @@ namespace stabilni_manzelstvi
                     bestRequestRating = requestRating;
                 }
             }
-            return bestRequest;
+            if (bestRequestRating > this.preferences.IndexOf(bestMatch) && this.zadany == true)
+            {
+				return 0;
+				
+            }
+            else
+            {
+				return bestRequest;
+			}
         }
     }
     internal class Program
@@ -93,13 +102,20 @@ namespace stabilni_manzelstvi
                 foreach (Clovek muz in muzi)
                 {
                     int proposition = muz.selectBestMatch();
-                    if (proposition > 0)
+                    muz.requests.Clear();
+                    if (proposition <= 0)
                     {
-                        muz.bestMatch = proposition;
-                        muz.zadany = true;
-                        zeny[proposition - 1].bestMatch = muz.jmeno;
-                        zeny[proposition - 1].zadany = true;
+                        continue;
                     }
+                    if (muz.zadany == true)
+                    {
+                        zeny[muz.bestMatch - 1].zadany = false;
+                        zeny[muz.bestMatch - 1].bestMatch = 0;
+                    }
+                    muz.bestMatch = proposition;
+                    muz.zadany = true;
+					zeny[proposition - 1].bestMatch = muz.jmeno;
+                    zeny[proposition - 1].zadany = true;
                 }
                 //kontrola, jestli vsechny zeny jsou zadane, pokud anom tak ukonci program
                 finished = true;
