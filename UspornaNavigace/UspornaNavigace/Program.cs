@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography;
+﻿using System.Runtime.CompilerServices;
+using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 
@@ -14,9 +15,8 @@ namespace UspornaNavigace
         /// if bestDistances[1] is -1, the town hasn't been discovered.
         /// </summary>
         public List<int> bestDistances = new List<int>();
-
-        public int bestFreeDistanceFromTownID = -1;
-        public int bestPaidDistanceFromTownID = -1;
+        public List<int> bestFreePath = new List<int>();
+        public List<int> bestPaidPath = new List<int>();
         public Town(int ID)
         {
             bestDistances.Add(-1);
@@ -33,7 +33,8 @@ namespace UspornaNavigace
                 {
                     result = true;
                     this.bestDistances[1] = road.length + townFrom.bestDistances[0];
-					this.bestPaidDistanceFromTownID = road.townFromID;
+                    this.bestPaidPath = this.copyIntList(townFrom.bestPaidPath);
+                    this.bestPaidPath.Add(townFrom.ID);
 				}
                 return result;
             }
@@ -43,7 +44,8 @@ namespace UspornaNavigace
                 {
                     result = true;
                     this.bestDistances[0] = road.length + townFrom.bestDistances[0];
-					this.bestFreeDistanceFromTownID = road.townFromID;
+					this.bestFreePath = this.copyIntList(townFrom.bestFreePath);
+					this.bestFreePath.Add(townFrom.ID);
 
 				}
             }
@@ -52,8 +54,19 @@ namespace UspornaNavigace
             {
                 result = true;
                 this.bestDistances[1] = road.length + townFrom.bestDistances[1];
-				this.bestPaidDistanceFromTownID = road.townFromID;
+				this.bestPaidPath = this.copyIntList(townFrom.bestPaidPath);
+				this.bestPaidPath.Add(townFrom.ID);
 			}
+            return result;
+        }
+
+        private List<int> copyIntList(List<int> toCopy)
+        {
+            List<int> result = new List<int>();
+            foreach(int element in toCopy)
+            {
+                result.Add(element);
+            }
             return result;
         }
         public void queueRoads(PriorityQueue<Road, int> queue)
@@ -220,29 +233,11 @@ namespace UspornaNavigace
                     if(inspectedRoad.townToID == goalTownID)
                     {
                         //printing out the result
-                        List<int> bestPathByID = new List<int>();
-                        int currentTownID = goalTownID;
-                        bool havePaid = false;
-                        while(currentTownID != startTownID)
+                        foreach(int townID in towns[goalTownID].bestPaidPath)
                         {
-                            bestPathByID.Add(currentTownID);
-                            if(havePaid == false)
-                            {
-								currentTownID = towns[currentTownID].bestPaidDistanceFromTownID;
-                                
-							}
-                        }
-                        bestPathByID.Add(startTownID);
-                        bestPathByID.Reverse();
-                        foreach(int townID in bestPathByID)
-                        {
-                            if(townID == goalTownID)
-                            {
-                                Console.WriteLine(goalTownID.ToString());
-                                break;
-                            }
                             Console.Write(townID.ToString() + " -> ");
                         }
+                        Console.WriteLine(goalTownID.ToString());
 						Console.WriteLine("vzdálenost: " + towns[inspectedRoad.townToID].bestDistances[1].ToString());
                         return;
                     }
