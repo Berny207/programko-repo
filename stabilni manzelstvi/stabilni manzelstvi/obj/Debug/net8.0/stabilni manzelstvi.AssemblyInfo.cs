@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("stabilni manzelstvi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7164aa2434ac5fb8ddcd7d3d2116b3ac72930cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17c5757436301804876c093ea204c9e7aff6c173")]
 [assembly: System.Reflection.AssemblyProductAttribute("stabilni manzelstvi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("stabilni manzelstvi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
