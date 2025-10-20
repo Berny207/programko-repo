@@ -8,7 +8,8 @@ namespace math_function_library
     {
         static void Main(string[] args)
         {
-            LinearFunction trollFunkce = new LinearFunction("f", 3, 5);
+			Console.OutputEncoding = System.Text.Encoding.UTF8;
+			LinearFunction trollFunkce = new LinearFunction("f", 3, 5);
             Console.WriteLine(trollFunkce.getDomain());
         }
     }
@@ -96,7 +97,8 @@ namespace math_function_library
             {
                 output += '(';
             }
-            output += $"{lowerLimit.ToString()}, " + (upperLimit+10.0).ToString();
+            Console.WriteLine(1d/0d);
+            output += "lowerLimit.ToString()}, " + (upperLimit).ToString();
             if (upperClosed)
             {
                 output += ']';
