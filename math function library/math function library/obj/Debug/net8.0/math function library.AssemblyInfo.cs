@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("math function library")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3dba3b0732bdb710a070b4635fa04a4f18700674")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e651d25cea5eb4fea57d341c4cc07f0d34c1a3a3")]
 [assembly: System.Reflection.AssemblyProductAttribute("math function library")]
 [assembly: System.Reflection.AssemblyTitleAttribute("math function library")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
