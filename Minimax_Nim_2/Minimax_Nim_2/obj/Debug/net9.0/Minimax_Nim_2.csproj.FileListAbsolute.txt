@@ -1,0 +1,15 @@
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.exe
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.deps.json
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.runtimeconfig.json
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.dll
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.pdb
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.AssemblyInfoInputs.cache
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.AssemblyInfo.cs
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.csproj.CoreCompileInputs.cache
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.sourcelink.json
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.dll
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\refint\Minimax_Nim_2.dll
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.pdb
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.genruntimeconfig.cache
+C:\Users\bernatj\source\repos\programko-repo\Minimax_Nim_2\Minimax_Nim_2\obj\Debug\net9.0\ref\Minimax_Nim_2.dll

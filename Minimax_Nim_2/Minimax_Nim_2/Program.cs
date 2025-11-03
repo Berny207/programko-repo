@@ -115,7 +115,85 @@ namespace MiniMax_Nim_2
 
             int minimax(List<int> piles, int depth, bool maximizingPlayer)
             {
-                // TODO: implementujte :)
+                List<int> copyLists(List<int> toCopy)
+                {
+                    List<int> output = new List<int>();
+                    foreach (int element in toCopy)
+                    {
+                        output.Add(element);
+                    }
+                    return output;
+                }
+
+                List<List<int>> getPossiblePiles(List<int> piles)
+                {
+                    List<List<int>> possiblePiles = new List<List<int>>();
+                    for (int i = 0; i < piles.Count; i++)
+                    {
+                        List<int> newPiles = copyLists(piles);
+                        if (piles[i] >= 2)
+                        {
+                            newPiles[i] = newPiles[i] - 2;
+                            possiblePiles.Add(newPiles);
+                        }
+                        if (piles[i] >= 1)
+                        {
+                            newPiles[i] = newPiles[i] - 1;
+                            possiblePiles.Add(newPiles);
+                        }
+                    }
+                    return possiblePiles;
+                }
+                List<List<int>> possiblePiles = getPossiblePiles(piles);
+                //je konečná pozice? vrať hráče, který vyhrál
+                if (possiblePiles.Count == 0)
+                {
+                    return Convert.ToInt32(maximizingPlayer);
+                }
+                int evalFunction(List<int> piles)
+                {
+                    //pokud je pocet na hromadce % 3 roven 1, je to prohravajici hromadka pro hrace na tahu
+                    //pokud je pocet prohravajicich hromadek lichy, je dana pozice prohravajici
+                    int losingPiles = 0;
+                    foreach (int pile in piles)
+                    {
+                        if(pile%3 == 1)
+                        {
+                            losingPiles++;
+                        }
+                    }
+                    return (losingPiles % 2)*2-1;
+                }
+                if(depth == 0)
+                {
+                    return evalFunction(piles);
+                }
+                int bestTurnValue;    
+                if(maximizingPlayer == true)
+                {
+                    bestTurnValue = -2;
+                    foreach(List<int> possiblePile in possiblePiles)
+                    {
+                        int result = minimax(possiblePile, depth - 1, !maximizingPlayer);
+                        if (result > bestTurnValue)
+                        {
+                            bestTurnValue = result;
+                        }
+                    }
+                }
+                else
+                {
+                    bestTurnValue = 2;
+                    foreach (List<int> possiblePile in possiblePiles)
+                    {
+                        int result = minimax(possiblePile, depth - 1, !maximizingPlayer);
+                        if (result < bestTurnValue)
+                        {
+                            bestTurnValue = result;
+                        }
+                    }
+                }
+                return bestTurnValue;     
             }
 
             return new Tuple<int, byte>(bestPile, matchesToRemove);
