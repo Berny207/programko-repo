@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Minimax_Nim_2\\",
+  "WorkspaceRootPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\Minimax_Nim_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B15BFA6A-513B-458C-AD6E-5F2068E46EB4}|Minimax_Nim_2\\Minimax_Nim_2.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\minimax_nim_2\\minimax_nim_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B15BFA6A-513B-458C-AD6E-5F2068E46EB4}|Minimax_Nim_2\\Minimax_Nim_2.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\minimax_nim_2\\minimax_nim_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B15BFA6A-513B-458C-AD6E-5F2068E46EB4}|Minimax_Nim_2\\Minimax_Nim_2.csproj|solutionrelative:minimax_nim_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Minimax_Nim_2\\Minimax_Nim_2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\Minimax_Nim_2\\Minimax_Nim_2\\Program.cs",
               "RelativeDocumentMoniker": "Minimax_Nim_2\\Program.cs",
-              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Minimax_Nim_2\\Minimax_Nim_2\\Program.cs",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\Minimax_Nim_2\\Minimax_Nim_2\\Program.cs",
               "RelativeToolTip": "Minimax_Nim_2\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAkwD0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAiwKIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-03T07:45:25.871Z",
               "EditorCaption": ""

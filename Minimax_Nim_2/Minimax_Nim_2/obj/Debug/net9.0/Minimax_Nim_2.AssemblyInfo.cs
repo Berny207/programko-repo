@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Minimax_Nim_2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+001fd5b2d89ffb0b03a875edb8bb9a442a1ce7e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3db7e341fcce3a22610dfcc59f3d6361d972972b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Minimax_Nim_2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Minimax_Nim_2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

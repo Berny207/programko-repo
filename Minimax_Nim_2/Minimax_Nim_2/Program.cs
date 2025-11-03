@@ -108,13 +108,13 @@ namespace MiniMax_Nim_2
 
         private Tuple<int, byte> GetBestBotMove()
         {
-            int bestPile = 0;
-            byte matchesToRemove = 1;
+            Tuple<int, byte> bestTurn = new Tuple<int, byte>(0, 1);
 
-            int score = minimax(_state.Piles.ToList(), 10, true);
+			int score = minimax(_state.Piles.ToList(), 10, true);
 
             int minimax(List<int> piles, int depth, bool maximizingPlayer)
             {
+                //zkopíruj int list do jiného
                 List<int> copyLists(List<int> toCopy)
                 {
                     List<int> output = new List<int>();
@@ -124,7 +124,7 @@ namespace MiniMax_Nim_2
                     }
                     return output;
                 }
-
+                //projdi a vrať všechny možné pozice po daném tahu
                 List<List<int>> getPossiblePiles(List<int> piles)
                 {
                     List<List<int>> possiblePiles = new List<List<int>>();
@@ -136,7 +136,8 @@ namespace MiniMax_Nim_2
                             newPiles[i] = newPiles[i] - 2;
                             possiblePiles.Add(newPiles);
                         }
-                        if (piles[i] >= 1)
+						newPiles = copyLists(piles);
+						if (piles[i] >= 1)
                         {
                             newPiles[i] = newPiles[i] - 1;
                             possiblePiles.Add(newPiles);
@@ -144,6 +145,19 @@ namespace MiniMax_Nim_2
                     }
                     return possiblePiles;
                 }
+
+                Tuple<int, byte> getTurnTupleFromPositions(List<int> pilesBefore, List<int> pilesAfter)
+                {
+                    for(int i = 0;i < pilesBefore.Count; i++)
+                    {
+                        if (pilesBefore[i] != pilesAfter[i])
+                        {
+                            return new Tuple<int, byte>(i, Convert.ToByte(pilesBefore[i] - pilesAfter[i]));
+                        }
+                    }
+                    return null;
+                }
+
                 List<List<int>> possiblePiles = getPossiblePiles(piles);
                 //je konečná pozice? vrať hráče, který vyhrál
                 if (possiblePiles.Count == 0)
@@ -152,8 +166,8 @@ namespace MiniMax_Nim_2
                 }
                 int evalFunction(List<int> piles)
                 {
-                    //pokud je pocet na hromadce % 3 roven 1, je to prohravajici hromadka pro hrace na tahu
-                    //pokud je pocet prohravajicich hromadek lichy, je dana pozice prohravajici
+                    //pokud je počet na hromádce % 3 roven 1, je to prohrávající hromádka pro hráče na tahu
+                    //pokud je počet prohrávajících hromádek lichý, je daná pozice prohrávajíci
                     int losingPiles = 0;
                     foreach (int pile in piles)
                     {
@@ -164,39 +178,40 @@ namespace MiniMax_Nim_2
                     }
                     return (losingPiles % 2)*2-1;
                 }
+                //pokud jsme vyčerpali naši hloubku, přestaneme se zajímat o minimax a jednoduše si spočítáme evaluační funkci
                 if(depth == 0)
                 {
                     return evalFunction(piles);
                 }
-                int bestTurnValue;    
-                if(maximizingPlayer == true)
+                int bestTurnValue = 0;
+                //pro každý možný tah
+                foreach (List<int> possiblePile in possiblePiles)
                 {
-                    bestTurnValue = -2;
-                    foreach(List<int> possiblePile in possiblePiles)
+                    int result = minimax(possiblePile, depth - 1, !maximizingPlayer);
+                    if (maximizingPlayer == true)
                     {
-                        int result = minimax(possiblePile, depth - 1, !maximizingPlayer);
-                        if (result > bestTurnValue)
+                        if (result > bestTurnValue || bestTurnValue == 0)
                         {
                             bestTurnValue = result;
                         }
                     }
-                }
-                else
-                {
-                    bestTurnValue = 2;
-                    foreach (List<int> possiblePile in possiblePiles)
+                    else
                     {
-                        int result = minimax(possiblePile, depth - 1, !maximizingPlayer);
-                        if (result < bestTurnValue)
+                        if (result < bestTurnValue || bestTurnValue == 0)
                         {
                             bestTurnValue = result;
                         }
+                    }
+                    //jestliže se jedná o poslední minimax z našeho tahu, pak potřebujeme z toho dostat nejlepší tah
+                    if(bestTurnValue == result && depth == 10)
+                    {
+                        bestTurn = getTurnTupleFromPositions(piles, possiblePile);
                     }
                 }
                 return bestTurnValue;     
             }
-
-            return new Tuple<int, byte>(bestPile, matchesToRemove);
+            Console.WriteLine(bestTurn);
+            return bestTurn;
         }
 
         private void PrintGameState()
