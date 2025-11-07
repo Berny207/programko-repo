@@ -19,6 +19,7 @@ namespace OneSolutionSudoku
         public MainWindow()
         {
             InitializeComponent();
-        }
-    }
+			MainFrame.Navigate(new Main_Page());
+		}
+	}
 }
