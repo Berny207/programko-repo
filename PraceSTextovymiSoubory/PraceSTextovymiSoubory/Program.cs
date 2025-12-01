@@ -104,7 +104,6 @@ namespace PraceSTextovymiSoubory
             // Doporučení: pro důkladnější pátrání si stáhněte extension do VS Code Inspector Hex nebo Hex Editor.
 
 
-
             //
             using (StreamWriter sw = new StreamWriter(@"..\..\..\..\vstupni_soubory\2.txt"))
             {
@@ -139,7 +138,7 @@ namespace PraceSTextovymiSoubory
                 }
             }
             //Console.WriteLine(fileSizeClear1); // 10
-            using (StreamWriter sw = new StreamWriter(@"..\..\..\..\vstupni_soubory\4.txt"))
+            /*using (StreamWriter sw = new StreamWriter(@"..\..\..\..\vstupni_soubory\4.txt"))
             {
                 sw.WriteLine("1");
                 sw.WriteLine("2");
@@ -148,7 +147,7 @@ namespace PraceSTextovymiSoubory
             using (StreamWriter sw = new StreamWriter(@"..\..\..\..\vstupni_soubory\5.txt"))
             {
                 sw.Write("1\n2\n3");
-            }
+            }*/
             // (5b) 3. Jaké znaky (vypište jako integery) jsou použity pro oddělení řádků v souboru 3.txt?
             // Porovnejte s 4.txt a 5.txt.
             // Jakým znakům odpovídají v ASCII tabulce? https://www.ascii-code.com/
@@ -160,7 +159,7 @@ namespace PraceSTextovymiSoubory
 
             // (10b) 4. Kolik slov má soubor 6.txt?
             // Za slovo teď považujme neprázdnou souvislou posloupnost nebílých znaků oddělené bílými.
-            // Tip: Split defaultně odděluje na základě libovolných bílých znaků, ale je tam jeden háček.. jaký?
+            // Tip: Split defaultně odděluje na základě libovolných bílých znaků, ale je tam jeden háček.. jaký?new line se považuje za 2 znaky
             // V souboru je vidět 52 slov.
             string loadedFile6;
             using (StreamReader sr4 = new StreamReader(@"..\..\..\..\vstupni_soubory\6.txt"))
@@ -168,18 +167,28 @@ namespace PraceSTextovymiSoubory
                 loadedFile6 = sr4.ReadToEnd();
             }
             string[] splitFile6 = loadedFile6.Split();
+            int wordCount = 0;
+            foreach (string word in splitFile6)
+            {
+                if(word == "")
+                {
+                    continue;
+                }
+                if (!char.IsWhiteSpace(word.ToCharArray()[0])) {
+                    wordCount++;
+                    Console.WriteLine($"{word} :{wordCount}");
+                }
+            }
             //Console.WriteLine(splitFile6.Length); // 63?
             // (15b) 5. Zapište do souboru 7.txt slovo "řeřicha". Povedlo se? 
-            // Vypište obsah souboru do konzole. V čem je u konzole problém a jak ho spravit?
+            // Vypište obsah souboru do konzole. V čem je u konzole problém a jak ho spravit? možná problíém s encodingem konzole, nevím, co to používá, ale Double.PositiveInfinity to nevypíše
             // Jaké kódování používá C#? Kolik bytů na znak? UTF-16 - 2 byty na znak
             using (StreamWriter sw7 = new StreamWriter(@"..\..\..\..\vstupni_soubory\7.txt", true))
             {
-                sw7.WriteLine("řěřicha");
+                sw7.WriteLine("řeřicha");
             }
-            using(StreamReader sr7 = new StreamReader(@"..\..\..\..\vstupni_soubory\7.txt"))
-            {
-                Console.WriteLine(sr7.ReadToEnd());
-            }
+
+            Console.WriteLine(Double.PositiveInfinity);
 
             // (25b) 6. Vypište četnosti jednotlivých slov v souboru 8.txt do souboru 9.txt ve formátu slovo:četnost na samostatný řádek.
             // Tentokrát však slova nejprve očištěte od diakritiky a všechna písmena berte jako malá (tak je i ukládejte do slovníku).
