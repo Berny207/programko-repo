@@ -1,4 +1,6 @@
-﻿using System.IO;
+﻿using System.Globalization;
+using System.IO;
+using System.Text;
 
 namespace PraceSTextovymiSoubory
 {
@@ -6,7 +8,7 @@ namespace PraceSTextovymiSoubory
     {
         static void Main(string[] args)
         {
-            /**/ // <-- stačí když jednu ze dvou * smažete a celá studijní část se zakomentuje (a naopak)
+            /*/ // <-- stačí když jednu ze dvou * smažete a celá studijní část se zakomentuje (a naopak)
             #region Studijní část
             // 1. OTEVŘENÍ SOUBORU
             // 1.1 Adresa k souboru (File PATH):
@@ -111,15 +113,32 @@ namespace PraceSTextovymiSoubory
             // (10b) 1. Jaký je počet znaků v souboru 1.txt a jaký v 2.txt?
             // Zkontrolujte s VS Code a vysvětlete rozdíly.
             // Tip: Při Debugování uvidíte všchny čtené znaky.
-            
+            string loadedFile1;
+            string loadedFile2;
+            using (StreamReader sr1 = new StreamReader(@"..\..\..\..\vstupni_soubory\1.txt"))
+            {
+                loadedFile1 = sr1.ReadToEnd();
+            }
+            using (StreamReader sr2 = new StreamReader(@"..\..\..\..\vstupni_soubory\2.txt"))
+            {
+                loadedFile2 = sr2.ReadToEnd();
+            }
+            int fileSize1 = loadedFile1.ToCharArray().Length;
+            int fileSize2 = loadedFile2.ToCharArray().Length;
 
-
+            //Console.WriteLine(fileSize1); // 16
+            //Console.WriteLine(fileSize2); // 15
             // (10b) 2. Jaký je počet znaků v souboru 1.txt, když pomineme bílé znaky?
             // Tip: Struktura Char má statickou funkci IsWhiteSpace().            
-            
-
-
-            //
+            int fileSizeClear1 = 0;
+            foreach(char c in loadedFile1)
+            {
+                if (!char.IsWhiteSpace(c))
+                {
+                    fileSizeClear1++;
+                }
+            }
+            //Console.WriteLine(fileSizeClear1); // 10
             using (StreamWriter sw = new StreamWriter(@"..\..\..\..\vstupni_soubory\4.txt"))
             {
                 sw.WriteLine("1");
@@ -134,31 +153,90 @@ namespace PraceSTextovymiSoubory
             // Porovnejte s 4.txt a 5.txt.
             // Jakým znakům odpovídají v ASCII tabulce? https://www.ascii-code.com/
             // Zde se stačí podívat do VS Code a napsat sem odpověď, není potřeba nic programovat.
-
+            // 3.txt - 13 a 10
+            // 4.txt - 13 a 10
+            // 5.txt - 10
 
 
             // (10b) 4. Kolik slov má soubor 6.txt?
             // Za slovo teď považujme neprázdnou souvislou posloupnost nebílých znaků oddělené bílými.
             // Tip: Split defaultně odděluje na základě libovolných bílých znaků, ale je tam jeden háček.. jaký?
             // V souboru je vidět 52 slov.
-            
-
-
+            string loadedFile6;
+            using (StreamReader sr4 = new StreamReader(@"..\..\..\..\vstupni_soubory\6.txt"))
+            {
+                loadedFile6 = sr4.ReadToEnd();
+            }
+            string[] splitFile6 = loadedFile6.Split();
+            //Console.WriteLine(splitFile6.Length); // 63?
             // (15b) 5. Zapište do souboru 7.txt slovo "řeřicha". Povedlo se? 
             // Vypište obsah souboru do konzole. V čem je u konzole problém a jak ho spravit?
-            // Jaké kódování používá C#? Kolik bytů na znak?
-
-
+            // Jaké kódování používá C#? Kolik bytů na znak? UTF-16 - 2 byty na znak
+            using (StreamWriter sw7 = new StreamWriter(@"..\..\..\..\vstupni_soubory\7.txt", true))
+            {
+                sw7.WriteLine("řěřicha");
+            }
+            using(StreamReader sr7 = new StreamReader(@"..\..\..\..\vstupni_soubory\7.txt"))
+            {
+                Console.WriteLine(sr7.ReadToEnd());
+            }
 
             // (25b) 6. Vypište četnosti jednotlivých slov v souboru 8.txt do souboru 9.txt ve formátu slovo:četnost na samostatný řádek.
             // Tentokrát však slova nejprve očištěte od diakritiky a všechna písmena berte jako malá (tak je i ukládejte do slovníku).
             // Tip: Využijte slovník: Dictionary<string, int> slova = new Dictionary<string, int>();
-            
-
-
+            Dictionary<string, int> wordAmount = new Dictionary<string, int>();
+            using (StreamReader sr8 = new StreamReader(@"..\..\..\..\vstupni_soubory\8.txt"))
+            {
+                string loadedFile8Line = sr8.ReadLine();
+                while (loadedFile8Line != null)
+                {
+                    string[] words = loadedFile8Line.Split();
+                    foreach (string word in words)
+                    {
+                        string editedWord = word.Trim(new char[] { '?','.', '!', ','});
+                        editedWord = editedWord.ToLower();
+                        editedWord = RemoveDiacritics(editedWord);
+                        if (wordAmount.ContainsKey(editedWord))
+                        {
+                            wordAmount[editedWord]++;
+                        }
+                        else
+                        {
+                            wordAmount.Add(editedWord, 1);
+                        }
+                    }
+                    loadedFile8Line = sr8.ReadLine();
+                }
+            }
+            using (StreamWriter sw9 = new StreamWriter(@"..\..\..\..\vstupni_soubory\9.txt"))
+            {
+              foreach(string key in wordAmount.Keys)
+                {
+                    sw9.WriteLine($"{key}:{wordAmount[key]}");
+                }
+            }
             // (+15b) Bonus: Vypište četnosti jednotlivých znaků abecedy (malá a velká písmena) v souboru 8.txt do konzole.
 
             #endregion
+        }
+
+        public static string RemoveDiacritics(string text)
+        {
+            if (string.IsNullOrWhiteSpace(text))
+                return text;
+
+            var normalizedString = text.Normalize(NormalizationForm.FormD);
+            var stringBuilder = new StringBuilder();
+
+            foreach (var c in normalizedString)
+            {
+                var unicodeCategory = CharUnicodeInfo.GetUnicodeCategory(c);
+                if (unicodeCategory != UnicodeCategory.NonSpacingMark)
+                {
+                    stringBuilder.Append(c);
+                }
+            }
+            return stringBuilder.ToString().Normalize(NormalizationForm.FormC);
         }
     }
 }
