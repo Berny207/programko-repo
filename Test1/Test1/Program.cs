@@ -43,7 +43,15 @@
             {
                 throw new Exception("Invalid coordinates");
             }
-            new Coordinates(array[0], array[1]);
+            if (this.isInputCorrect(x, y))
+            {
+                this.x = array[0];
+                this.y = array[1];
+            }
+            else
+            {
+                throw new Exception("Invalid coordinates");
+            }
         }
         /// <summary>
         /// Adds vector to current coordinates<br></br>
@@ -85,23 +93,6 @@
     }
 
     /// <summary>
-    /// Contains movement vectors and current coordinates
-    /// </summary>
-    class Knight()
-    {
-        public List<Vector> movementVectors = new List<Vector>
-            {   new Vector(-2, -1),
-                new Vector(-2, 1),
-                new Vector(2, -1),
-                new Vector(2, 1),
-                new Vector(-1, -2),
-                new Vector(-1, 2),
-                new Vector(1, -2),
-                new Vector(1, 2),
-            };
-        public Coordinates coordinates;
-    }
-    /// <summary>
     /// Just an 8x8 char grid
     /// </summary>
     class Board()
@@ -119,6 +110,16 @@
     }
     internal class Program
     {
+        static List<Vector> movementVectors = new List<Vector>
+            {   new Vector(-2, -1),
+                new Vector(-2, 1),
+                new Vector(2, -1),
+                new Vector(2, 1),
+                new Vector(-1, -2),
+                new Vector(-1, 2),
+                new Vector(1, -2),
+                new Vector(1, 2),
+            };
         static Exception invalidInput = new Exception("Invalid input");
         /// <summary>
         /// Parses line from input file as an integer array
@@ -155,11 +156,10 @@
         static void Main(string[] args)
         {
             Board board = new Board();
-            Knight knight = new Knight();
             int obstacleCount = 0;
             Coordinates start;
             Coordinates goal;
-            string fileName = "3.txt";
+            string fileName = "2.txt";
 
             // Opening file
             try
@@ -189,7 +189,7 @@
             // Loading starting coordinates
             try
             {
-                knight.coordinates = new Coordinates(parseLine(sr.ReadLine(), 2));
+               start  = new Coordinates(parseLine(sr.ReadLine(), 2));
             }
             catch (Exception ex) { Console.WriteLine(ex.Message); return; }
             // Loading goal coordinates
@@ -203,15 +203,17 @@
             // BFS Algorithm
             int currentDistance = 0;
             PriorityQueue<Coordinates, int> toCheck = new PriorityQueue<Coordinates, int>();
-            toCheck.Enqueue(knight.coordinates, 0);
+            Coordinates currentCoordinates;
+            toCheck.Enqueue(start, 0);
 
             // Load the element with smallest distance from start
-            while (toCheck.TryDequeue(out knight.coordinates, out currentDistance))
-            {                
+            while (toCheck.Count > 0)
+            {
+                toCheck.TryDequeue(out currentCoordinates, out currentDistance);
                 List<Coordinates> neighnouringCoordinates = new List<Coordinates>();
-                foreach(Vector moveVector in knight.movementVectors)
+                foreach(Vector moveVector in movementVectors)
                 {
-                    Coordinates newCoordinates = knight.coordinates;
+                    Coordinates newCoordinates = currentCoordinates;
                     if (!newCoordinates.addVector(moveVector))
                     {
                         continue;
@@ -229,7 +231,7 @@
                     }
 
                     // Mark current knight coordinate as obstacle to avoid backtracking(we have already checked it with lowest possible distance, no need to check it again)
-                    board.setCell(knight.coordinates, '#');
+                    board.setCell(currentCoordinates, '#');
                 }
             }
             Console.WriteLine("Do cíle se koněm nejde dostat.");

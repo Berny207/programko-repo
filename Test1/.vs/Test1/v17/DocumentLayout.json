@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Test1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\test1\\test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|solutionrelative:test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\test1\\test1\\vstupni_soubory\\5.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|solutionrelative:test1\\vstupni_soubory\\5.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\test1\\test1\\vstupni_soubory\\2.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|solutionrelative:test1\\vstupni_soubory\\2.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\test1\\test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|solutionrelative:test1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\test1\\test1\\vstupni_soubory\\1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|solutionrelative:test1\\vstupni_soubory\\1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\test1\\test1\\vstupni_soubory\\5.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{571D0ACF-7536-4C91-A4AF-E5DF07EC1142}|Test1\\Test1.csproj|solutionrelative:test1\\vstupni_soubory\\5.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "5.txt",
               "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Test1\\Test1\\vstupni_soubory\\5.txt",
               "RelativeDocumentMoniker": "Test1\\vstupni_soubory\\5.txt",
@@ -38,25 +38,24 @@
               "RelativeToolTip": "Test1\\vstupni_soubory\\5.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-12-08T08:11:25.386Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-08T08:11:25.386Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "2.txt",
               "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Test1\\Test1\\vstupni_soubory\\2.txt",
               "RelativeDocumentMoniker": "Test1\\vstupni_soubory\\2.txt",
               "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Test1\\Test1\\vstupni_soubory\\2.txt",
               "RelativeToolTip": "Test1\\vstupni_soubory\\2.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-12-08T08:02:26.791Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "1.txt",
               "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Test1\\Test1\\vstupni_soubory\\1.txt",
               "RelativeDocumentMoniker": "Test1\\vstupni_soubory\\1.txt",
@@ -69,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Test1\\Test1\\Program.cs",
               "RelativeDocumentMoniker": "Test1\\Program.cs",
               "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\Test1\\Test1\\Program.cs",
               "RelativeToolTip": "Test1\\Program.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAiwO4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAADwv6EAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T07:04:17.29Z",
               "EditorCaption": ""
