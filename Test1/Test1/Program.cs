@@ -199,6 +199,7 @@
             }
             catch (Exception ex) { Console.WriteLine(ex.Message); return; }
             board.setCell(goal, 'G');
+            sr.Close();
 
             // BFS Algorithm
             int currentDistance = 0;
