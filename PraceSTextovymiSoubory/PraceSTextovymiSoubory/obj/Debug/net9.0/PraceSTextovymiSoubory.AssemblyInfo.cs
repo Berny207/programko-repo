@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PraceSTextovymiSoubory")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+66ee54b4010983c7f0d5c38f1a5818d4625a3edd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d43dab7a61eae00645b837bdca4fa9fac739ac2e")]
 [assembly: System.Reflection.AssemblyProductAttribute("PraceSTextovymiSoubory")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PraceSTextovymiSoubory")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
