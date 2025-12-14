@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UspornaNavigace")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+17c5757436301804876c093ea204c9e7aff6c173")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca0101aca72847eca3fe837bfe6f70b32d610d4a")]
 [assembly: System.Reflection.AssemblyProductAttribute("UspornaNavigace")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UspornaNavigace")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

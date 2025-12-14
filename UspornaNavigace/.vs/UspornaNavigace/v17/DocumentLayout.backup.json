@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\UspornaNavigace\\",
+  "WorkspaceRootPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\UspornaNavigace\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{265C442E-71C9-4FEF-BDCA-8372AB7941E6}|UspornaNavigace\\UspornaNavigace.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\uspornanavigace\\uspornanavigace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{265C442E-71C9-4FEF-BDCA-8372AB7941E6}|UspornaNavigace\\UspornaNavigace.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\uspornanavigace\\uspornanavigace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{265C442E-71C9-4FEF-BDCA-8372AB7941E6}|UspornaNavigace\\UspornaNavigace.csproj|solutionrelative:uspornanavigace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\UspornaNavigace\\UspornaNavigace\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\UspornaNavigace\\UspornaNavigace\\Program.cs",
               "RelativeDocumentMoniker": "UspornaNavigace\\Program.cs",
-              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\UspornaNavigace\\UspornaNavigace\\Program.cs",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\UspornaNavigace\\UspornaNavigace\\Program.cs",
               "RelativeToolTip": "UspornaNavigace\\Program.cs",
-              "ViewState": "AgIAANsAAAAAAAAAAADwv+QAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAwIwAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-06T06:17:24.585Z",
               "EditorCaption": ""

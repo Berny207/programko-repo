@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\math function library\\",
+  "WorkspaceRootPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\math function library\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6F72ED4-8352-40EC-8342-884B2D512373}|math function library\\math function library.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\math function library\\math function library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6F72ED4-8352-40EC-8342-884B2D512373}|math function library\\math function library.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\math function library\\math function library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6F72ED4-8352-40EC-8342-884B2D512373}|math function library\\math function library.csproj|solutionrelative:math function library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\math function library\\math function library\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\math function library\\math function library\\Program.cs",
               "RelativeDocumentMoniker": "math function library\\Program.cs",
-              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\math function library\\math function library\\Program.cs",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\math function library\\math function library\\Program.cs",
               "RelativeToolTip": "math function library\\Program.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAA9wD0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwBEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-20T06:52:02.978Z",
               "EditorCaption": ""

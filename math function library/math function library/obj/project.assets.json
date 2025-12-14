@@ -8,23 +8,23 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\janbe\\.nuget\\packages\\": {},
+    "C:\\Users\\bernatj\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\janbe\\source\\repos\\programko-repo\\math function library\\math function library\\math function library.csproj",
+      "projectUniqueName": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\math function library\\math function library\\math function library.csproj",
       "projectName": "math function library",
-      "projectPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\math function library\\math function library\\math function library.csproj",
-      "packagesPath": "C:\\Users\\janbe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\math function library\\math function library\\obj\\",
+      "projectPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\math function library\\math function library\\math function library.csproj",
+      "packagesPath": "C:\\Users\\bernatj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\math function library\\math function library\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\janbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bernatj\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
