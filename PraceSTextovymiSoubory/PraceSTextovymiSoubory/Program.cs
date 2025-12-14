@@ -176,13 +176,12 @@ namespace PraceSTextovymiSoubory
                 }
                 if (!char.IsWhiteSpace(word.ToCharArray()[0])) {
                     wordCount++;
-                    Console.WriteLine($"{word} :{wordCount}");
                 }
             }
             //Console.WriteLine(splitFile6.Length); // 63?
             // (15b) 5. Zapište do souboru 7.txt slovo "řeřicha". Povedlo se? 
             // Vypište obsah souboru do konzole. V čem je u konzole problém a jak ho spravit? možná problíém s encodingem konzole, nevím, co to používá, ale Double.PositiveInfinity to nevypíše
-            // Jaké kódování používá C#? Kolik bytů na znak? UTF-16 - 2 byty na znak
+            // Jaké kódování používá C#? Kolik bytů na znak? UTF-16 má 2-4 byty na znak
             using (StreamWriter sw7 = new StreamWriter(@"..\..\..\..\vstupni_soubory\7.txt", true))
             {
                 sw7.WriteLine("řeřicha");
