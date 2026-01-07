@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\RGB m\u00EDch\u00E1tko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C49A366D-5C5B-4212-9805-F0BE4F8E9E6A}|RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\rgb m\u00EDch\u00E1tko\\rgb m\u00EDch\u00E1tko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C49A366D-5C5B-4212-9805-F0BE4F8E9E6A}|RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko.csproj|solutionrelative:rgb m\u00EDch\u00E1tko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C49A366D-5C5B-4212-9805-F0BE4F8E9E6A}|RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\rgb m\u00EDch\u00E1tko\\rgb m\u00EDch\u00E1tko\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C49A366D-5C5B-4212-9805-F0BE4F8E9E6A}|RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko.csproj|solutionrelative:rgb m\u00EDch\u00E1tko\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C49A366D-5C5B-4212-9805-F0BE4F8E9E6A}|RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\rgb m\u00EDch\u00E1tko\\rgb m\u00EDch\u00E1tko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C49A366D-5C5B-4212-9805-F0BE4F8E9E6A}|RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko.csproj|solutionrelative:rgb m\u00EDch\u00E1tko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C49A366D-5C5B-4212-9805-F0BE4F8E9E6A}|RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\rgb m\u00EDch\u00E1tko\\rgb m\u00EDch\u00E1tko\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko\\MainWindow.xaml",
               "RelativeDocumentMoniker": "RGB m\u00EDch\u00E1tko\\MainWindow.xaml",
@@ -70,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "RGB m\u00EDch\u00E1tko\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\RGB m\u00EDch\u00E1tko\\RGB m\u00EDch\u00E1tko\\MainWindow.xaml.cs",
               "RelativeToolTip": "RGB m\u00EDch\u00E1tko\\MainWindow.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAowEwAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAA6wCcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T07:17:43.709Z",
               "EditorCaption": ""

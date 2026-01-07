@@ -15,7 +15,7 @@
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="Text" Value="0"/>
         </Style>
-        <Style TargetType="Label" x:Key="LabelStyle">
+        <Style TargetType="Label" x:Key="ColouredLabelStyle">
             <Setter Property="HorizontalAlignment" Value="Left"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
             <Setter Property="Width" Value="50"/>
@@ -34,6 +34,11 @@
             <Setter Property="Minimum" Value="0"/>
             <Setter Property="Maximum" Value="255"/>
         </Style>
+        <Style TargetType="Label" x:Key="TitleLabelStyle">
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="30"/>
+        </Style>
     </Window.Resources>    
     <Grid>
         <Grid.ColumnDefinitions>
@@ -50,14 +55,14 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <Rectangle Name="Rectangle" Grid.RowSpan="5" Width="150" Height="150"/>
-        <Label Name="LabelColor" Content="#000000" Grid.Row="5"/>
-        <Label Content="Red" Background="Red" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
+        <Label Name="LabelColor" Content="#000000" Grid.Row="4" Style="{StaticResource TitleLabelStyle}"/>
+        <Label Content="Red" Background="Red" Grid.Column="1" Style="{StaticResource ColouredLabelStyle}"/>
         <TextBox Name="TextBoxRed" Grid.Row="0" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput" Text=""/>
         <Slider Name="SliderRed" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
-        <Label Content="Green" Background="Green" Grid.Row="2" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
+        <Label Content="Green" Background="Green" Grid.Row="2" Grid.Column="1" Style="{StaticResource ColouredLabelStyle}"/>
         <TextBox Name="TextBoxGreen" Grid.Row="2" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput" Text=""/>
         <Slider Name="SliderGreen" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
-        <Label Content="Blue" Background="BLue" Grid.Row="4" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
+        <Label Content="Blue" Background="BLue" Grid.Row="4" Grid.Column="1" Style="{StaticResource ColouredLabelStyle}"/>
         <TextBox Name="TextBoxBlue" Grid.Row="4" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput" Text=""/>
         <Slider Name="SliderBlue" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
     </Grid>

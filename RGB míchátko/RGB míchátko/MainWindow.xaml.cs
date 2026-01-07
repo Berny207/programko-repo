@@ -75,7 +75,7 @@ namespace RGB_míchátko
         {
 			if (source.Text == "") { return; }
 			long input = Convert.ToUInt32(source.Text);
-			if (input > 255) { input = 255; source.Text = "255"; }
+			if (input > 255) { input = 255; source.Text = "255"; MessageBox.Show("Cannot input value higher than 255."); }
 			boundSlider.Value = input;
             SliderValueChanged(source, null);
 		}
