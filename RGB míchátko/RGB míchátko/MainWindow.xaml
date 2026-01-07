@@ -1,0 +1,64 @@
+﻿<Window x:Class="RGB_míchátko.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:media="clr-namespace:System.Windows.Media;assembly=PresentationCore"
+        xmlns:local="clr-namespace:RGB_míchátko"
+        mc:Ignorable="d"
+        Title="RGB míchátko" Height="450" Width="800">
+    <Window.Resources>
+        <Style TargetType="TextBox" x:Key="TextBoxStyle">
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Text" Value="0"/>
+        </Style>
+        <Style TargetType="Label" x:Key="LabelStyle">
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Width" Value="50"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="Slider" x:Key="SliderStyle">
+            <Setter Property="Width" Value="100"/>
+            <Setter Property="Height" Value="20"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Orientation" Value="Horizontal"/>
+            <Setter Property="Minimum" Value="0"/>
+            <Setter Property="Maximum" Value="255"/>
+        </Style>
+    </Window.Resources>    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="0.3*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Rectangle Name="Rectangle" Grid.RowSpan="5" Width="150" Height="150"/>
+        <Label Name="LabelColor" Content="#000000" Grid.Row="5"/>
+        <Label Content="Red" Background="Red" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
+        <TextBox Name="TextBoxRed" Grid.Row="0" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput"/>
+        <Slider Name="SliderRed" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
+        <Label Content="Green" Background="Green" Grid.Row="2" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
+        <TextBox Name="TextBoxGreen" Grid.Row="2" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput"/>
+        <Slider Name="SliderGreen" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
+        <Label Content="Blue" Background="BLue" Grid.Row="4" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
+        <TextBox Name="TextBoxBlue" Grid.Row="4" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput"/>
+        <Slider Name="SliderBlue" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
+    </Grid>
+</Window>
