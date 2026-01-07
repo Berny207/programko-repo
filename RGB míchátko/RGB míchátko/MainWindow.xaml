@@ -52,13 +52,13 @@
         <Rectangle Name="Rectangle" Grid.RowSpan="5" Width="150" Height="150"/>
         <Label Name="LabelColor" Content="#000000" Grid.Row="5"/>
         <Label Content="Red" Background="Red" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
-        <TextBox Name="TextBoxRed" Grid.Row="0" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput"/>
+        <TextBox Name="TextBoxRed" Grid.Row="0" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput" Text=""/>
         <Slider Name="SliderRed" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
         <Label Content="Green" Background="Green" Grid.Row="2" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
-        <TextBox Name="TextBoxGreen" Grid.Row="2" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput"/>
+        <TextBox Name="TextBoxGreen" Grid.Row="2" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput" Text=""/>
         <Slider Name="SliderGreen" Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
         <Label Content="Blue" Background="BLue" Grid.Row="4" Grid.Column="1" Style="{StaticResource LabelStyle}"/>
-        <TextBox Name="TextBoxBlue" Grid.Row="4" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput"/>
+        <TextBox Name="TextBoxBlue" Grid.Row="4" Grid.Column="2" Style="{StaticResource TextBoxStyle}" TextChanged="TextChanged" PreviewTextInput="PreviewTextInput" Text=""/>
         <Slider Name="SliderBlue" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" ValueChanged="SliderValueChanged" Style="{StaticResource SliderStyle}" SmallChange="1"/>
     </Grid>
 </Window>

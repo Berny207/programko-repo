@@ -19,3 +19,24 @@ C:\Users\bernatj\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\D
 C:\Users\bernatj\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.pdb
 C:\Users\bernatj\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.genruntimeconfig.cache
 C:\Users\bernatj\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\ref\RGB míchátko.dll
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\bin\Debug\net8.0-windows\RGB míchátko.exe
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\bin\Debug\net8.0-windows\RGB míchátko.deps.json
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\bin\Debug\net8.0-windows\RGB míchátko.runtimeconfig.json
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\bin\Debug\net8.0-windows\RGB míchátko.dll
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\bin\Debug\net8.0-windows\RGB míchátko.pdb
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko_MarkupCompile.cache
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko_MarkupCompile.lref
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.g.resources
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.AssemblyInfoInputs.cache
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.AssemblyInfo.cs
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.csproj.CoreCompileInputs.cache
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.sourcelink.json
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.dll
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\refint\RGB míchátko.dll
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.pdb
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\RGB míchátko.genruntimeconfig.cache
+C:\Users\janbe\source\repos\programko-repo\RGB míchátko\RGB míchátko\obj\Debug\net8.0-windows\ref\RGB míchátko.dll
