@@ -1,0 +1,21 @@
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\bin\Debug\net8.0-windows\TODO list.exe
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\bin\Debug\net8.0-windows\TODO list.deps.json
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\bin\Debug\net8.0-windows\TODO list.runtimeconfig.json
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\bin\Debug\net8.0-windows\TODO list.dll
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\bin\Debug\net8.0-windows\TODO list.pdb
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list_MarkupCompile.cache
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list_MarkupCompile.lref
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.g.resources
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.AssemblyInfoInputs.cache
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.AssemblyInfo.cs
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.csproj.CoreCompileInputs.cache
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.sourcelink.json
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.dll
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\refint\TODO list.dll
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.pdb
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\TODO list.genruntimeconfig.cache
+C:\Users\bernatj\source\repos\programko-repo\TODO list\TODO list\obj\Debug\net8.0-windows\ref\TODO list.dll
