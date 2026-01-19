@@ -14,34 +14,47 @@ namespace TODO_list
 
     internal class ViewModel : ViewModelBase
     {
-        public RelayCommand AddCommand => new RelayCommand(execute => AddTask());
-        public RelayCommand DeleteCommand => new RelayCommand(execute => DeleteTask(), canExecute => SelectedTask != null);
-        public ObservableCollection<Item> Tasks { get; set; }
+        public RelayCommand AddCommand => new RelayCommand(execute => AddQuest());
+        public RelayCommand DeleteCommand => new RelayCommand(execute => DeleteQuest(), canExecute => SelectedQuest != null);
+        public ObservableCollection<Quest> Quests { get; set; }
         public ViewModel()
         {
-            Tasks = new ObservableCollection<Item>();
+            Quests = new ObservableCollection<Quest>();
         }
 
-        private Item selectedTask;
-        public Item SelectedTask
+        private Quest selectedQuest;
+        public Quest SelectedQuest
         {
-            get { return selectedTask; }
-            set { selectedTask = value; OnPropertyChanged(); }
+            get { return selectedQuest; }
+            set { selectedQuest = value; OnPropertyChanged(); }
         }
 
-        public void AddTask()
+        private string inputtedText;
+        public string InputtedText
         {
-            if(SelectedTask == null)
-            {
-                Tasks.Add(new Item());
-                return;
-            }
-            Tasks.Add(SelectedTask);
-
+            get { return inputtedText; }
+            set { inputtedText = value; OnPropertyChanged(); }
         }
-        public void DeleteTask()
+        private DateTime inputtedDeadline;
+		public DateTime InputtedDeadline
+		{
+			get { return inputtedDeadline; }
+			set { inputtedDeadline = value; OnPropertyChanged(); }
+		}
+		private int inputtedImportance;
+		public int InputtedImportance
+		{
+			get { return inputtedImportance; }
+			set { inputtedImportance = value; OnPropertyChanged(); }
+		}
+
+		public void AddQuest()
         {
-            Tasks.Remove(selectedTask);
+            Quests.Add(new Quest(InputtedText, InputtedDeadline, InputtedImportance));
+        }
+        public void DeleteQuest()
+        {
+            Quests.Remove(selectedQuest);
         }
     }
 }
