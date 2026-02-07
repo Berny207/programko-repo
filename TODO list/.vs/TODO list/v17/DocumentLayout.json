@@ -29,11 +29,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -58,8 +62,7 @@
               "RelativeToolTip": "TODO list\\Quest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T07:45:00.328Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T07:45:00.328Z"
             },
             {
               "$type": "Document",
@@ -71,8 +74,7 @@
               "RelativeToolTip": "TODO list\\ViewModel.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAiwBEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T07:42:44.933Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T07:42:44.933Z"
             },
             {
               "$type": "Document",
@@ -84,8 +86,7 @@
               "RelativeToolTip": "TODO list\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T06:57:31.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T06:57:31.069Z"
             },
             {
               "$type": "Document",
