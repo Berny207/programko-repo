@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\mvvmpexeso\\mvvmpexeso\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|solutionrelative:mvvmpexeso\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\mvvmpexeso\\mvvmpexeso\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|solutionrelative:mvvmpexeso\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\mvvmpexeso\\mvvmpexeso\\model\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|solutionrelative:mvvmpexeso\\model\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\mvvmpexeso\\mvvmpexeso\\viewmodel\\squareviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|solutionrelative:mvvmpexeso\\viewmodel\\squareviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\mvvmpexeso\\mvvmpexeso\\model\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|solutionrelative:mvvmpexeso\\model\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\mvvmpexeso\\mvvmpexeso\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|solutionrelative:mvvmpexeso\\model\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\mvvmpexeso\\mvvmpexeso\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{541FA089-9A5B-4C0B-9028-1029ED397B01}|MVVMPexeso\\Othello.csproj|solutionrelative:mvvmpexeso\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameBoard.cs",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\Model\\GameBoard.cs",
+              "RelativeDocumentMoniker": "MVVMPexeso\\Model\\GameBoard.cs",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\Model\\GameBoard.cs",
+              "RelativeToolTip": "MVVMPexeso\\Model\\GameBoard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T07:56:45.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\App.xaml",
+              "RelativeDocumentMoniker": "MVVMPexeso\\App.xaml",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\App.xaml",
+              "RelativeToolTip": "MVVMPexeso\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T07:49:48.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SquareViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\ViewModel\\SquareViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMPexeso\\ViewModel\\SquareViewModel.cs",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\ViewModel\\SquareViewModel.cs",
+              "RelativeToolTip": "MVVMPexeso\\ViewModel\\SquareViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T07:36:12.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMPexeso\\ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "MVVMPexeso\\ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAWwEYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T07:35:17.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\Model\\Player.cs",
+              "RelativeDocumentMoniker": "MVVMPexeso\\Model\\Player.cs",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\Model\\Player.cs",
+              "RelativeToolTip": "MVVMPexeso\\Model\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T07:31:23.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\Model\\Square.cs",
+              "RelativeDocumentMoniker": "MVVMPexeso\\Model\\Square.cs",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\Model\\Square.cs",
+              "RelativeToolTip": "MVVMPexeso\\Model\\Square.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T07:31:10.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMPexeso\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\MainWindow.xaml",
+              "RelativeToolTip": "MVVMPexeso\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T07:23:12.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
