@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\",
+  "WorkspaceRootPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\todo list\\todo list\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|solutionrelative:todo list\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\todo list\\todo list\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|solutionrelative:todo list\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\todo list\\todo list\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\todo list\\todo list\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|solutionrelative:todo list\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\todo list\\todo list\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\todo list\\todo list\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|solutionrelative:todo list\\viewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\todo list\\todo list\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|solutionrelative:todo list\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\bernatj\\AppData\\Local\\SourceServer\\a487ce84063b5800e0e6cdd54b0fff5b1c3621febfce00bfb34e2b48dac36898\\src\\libraries\\System.Private.CoreLib\\src\\System\\ThrowHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\todo list\\todo list\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6E2B075-EC8C-4CDE-AE59-1A9474FE85AD}|TODO list\\TODO list.csproj|solutionrelative:todo list\\quest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\janbe\\AppData\\Local\\Temp\\.vsdbgsrc\\9ba3e2ce8baef24cc41c2b65a159420e5c78c9dc4d50194ac06c046de5f1aae4\\ItemCollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,67 +29,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ThrowHelper.cs",
-              "DocumentMoniker": "C:\\Users\\bernatj\\AppData\\Local\\SourceServer\\a487ce84063b5800e0e6cdd54b0fff5b1c3621febfce00bfb34e2b48dac36898\\src\\libraries\\System.Private.CoreLib\\src\\System\\ThrowHelper.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\a487ce84063b5800e0e6cdd54b0fff5b1c3621febfce00bfb34e2b48dac36898\\src\\libraries\\System.Private.CoreLib\\src\\System\\ThrowHelper.cs",
-              "ToolTip": "C:\\Users\\bernatj\\AppData\\Local\\SourceServer\\a487ce84063b5800e0e6cdd54b0fff5b1c3621febfce00bfb34e2b48dac36898\\src\\libraries\\System.Private.CoreLib\\src\\System\\ThrowHelper.cs [Read Only]",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\SourceServer\\a487ce84063b5800e0e6cdd54b0fff5b1c3621febfce00bfb34e2b48dac36898\\src\\libraries\\System.Private.CoreLib\\src\\System\\ThrowHelper.cs [Read Only]",
-              "ViewState": "AgIAAAsBAAAAAAAAAAAEwCkBAAAMAAAAAQAAAA==",
+              "Title": "ItemCollection.cs",
+              "DocumentMoniker": "C:\\Users\\janbe\\AppData\\Local\\Temp\\.vsdbgsrc\\9ba3e2ce8baef24cc41c2b65a159420e5c78c9dc4d50194ac06c046de5f1aae4\\ItemCollection.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\9ba3e2ce8baef24cc41c2b65a159420e5c78c9dc4d50194ac06c046de5f1aae4\\ItemCollection.cs",
+              "ToolTip": "C:\\Users\\janbe\\AppData\\Local\\Temp\\.vsdbgsrc\\9ba3e2ce8baef24cc41c2b65a159420e5c78c9dc4d50194ac06c046de5f1aae4\\ItemCollection.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\9ba3e2ce8baef24cc41c2b65a159420e5c78c9dc4d50194ac06c046de5f1aae4\\ItemCollection.cs [Read Only]",
+              "ViewState": "AgIAAIsFAAAAAAAAAAD4v5kFAAADAAAAAQAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T08:26:54.682Z",
+              "WhenOpened": "2026-01-19T20:17:54.026Z",
               "EditorCaption": " [Read Only]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\TODO list\\Item.cs",
-              "RelativeDocumentMoniker": "TODO list\\Item.cs",
-              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\TODO list\\Item.cs",
-              "RelativeToolTip": "TODO list\\Item.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T07:45:00.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\TODO list\\ViewModel.cs",
-              "RelativeDocumentMoniker": "TODO list\\ViewModel.cs",
-              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\TODO list\\ViewModel.cs",
-              "RelativeToolTip": "TODO list\\ViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T07:42:44.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\TODO list\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TODO list\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\TODO list\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TODO list\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Title": "Quest.cs",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\TODO list\\Quest.cs",
+              "RelativeDocumentMoniker": "TODO list\\Quest.cs",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\TODO list\\Quest.cs",
+              "RelativeToolTip": "TODO list\\Quest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T06:57:31.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T07:45:00.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\TODO list\\ViewModel.cs",
+              "RelativeDocumentMoniker": "TODO list\\ViewModel.cs",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\TODO list\\ViewModel.cs",
+              "RelativeToolTip": "TODO list\\ViewModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:42:44.933Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\TODO list\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TODO list\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\TODO list\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TODO list\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T06:57:31.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\TODO list\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\TODO list\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TODO list\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\TODO list\\TODO list\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\TODO list\\TODO list\\MainWindow.xaml",
               "RelativeToolTip": "TODO list\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-19T06:57:34.288Z",

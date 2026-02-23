@@ -23,7 +23,7 @@ namespace TODO_list
             ViewModel viewModel = new ViewModel();
             DataContext = viewModel;
         }
-        private static readonly Regex number_regex = new Regex("[^1-9]");
+        private static readonly Regex number_regex = new Regex("[^0-9]");
         private static bool IsTextNumerical(string text)
         {
             return number_regex.IsMatch(text);
