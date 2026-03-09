@@ -77,12 +77,11 @@ namespace mince
             }
             return (output, sum);
         }
-
         static int? SelectCoinToAdd(int currentSum, int sum, List<int> PossibleCoins, int lastSelectedCoin)
         {
             foreach (int coin in PossibleCoins) 
             {
-                if (coin > lastSelectedCoin && lastSelectedCoin != 0)
+                if (coin > lastSelectedCoin && lastSelectedCoin != -1)
                 {
                     continue;
                 }
@@ -92,15 +91,6 @@ namespace mince
                 }
             }
             return null;
-        }
-        static List<int> Copy(List<int> input)
-        {
-            List<int> output = new List<int>();
-            foreach(int value in input)
-            {
-                output.Add(value);
-            }
-            return output;
         }
         static void Main(string[] args)
         {
@@ -117,11 +107,10 @@ namespace mince
             }
             Sequence sequence = new Sequence();
             int currentSum = 0;
-            int currentStep = 0;
-            sequence.Add(currentStep);
+            int lastCoin = -1;
             while (true)
             {
-                int? coinToAdd = SelectCoinToAdd(currentSum, sum, coins, currentStep);
+                int? coinToAdd = SelectCoinToAdd(currentSum, sum, coins, lastCoin);
                 if (coinToAdd == null)
                 {
                     // Cannot add another coin
@@ -130,21 +119,20 @@ namespace mince
                         Console.WriteLine(sequence);
                     }
                     // Backtrack
-                    int removedStep = sequence.Remove();
                     try
                     {
-                        currentStep = sequence.Peek();
-                    }
+						lastCoin = sequence.Remove() - 1;
+                        currentSum -= (lastCoin+1);
+					}
                     catch
                     {
                         break;
                     }
-                    currentSum -= removedStep;
-                    currentStep = removedStep;
                     continue;
                 }
                 sequence.Add((int)coinToAdd);
                 currentSum += (int)coinToAdd;
+                lastCoin = (int)coinToAdd;
             }
         }
     }

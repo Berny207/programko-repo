@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\mince\\",
+  "WorkspaceRootPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\mince\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35EEE6B9-25CB-4017-B1BE-C0775E3C1681}|mince\\mince.csproj|c:\\users\\bernatj\\source\\repos\\programko-repo\\mince\\mince\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{35EEE6B9-25CB-4017-B1BE-C0775E3C1681}|mince\\mince.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\mince\\mince\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35EEE6B9-25CB-4017-B1BE-C0775E3C1681}|mince\\mince.csproj|solutionrelative:mince\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35EEE6B9-25CB-4017-B1BE-C0775E3C1681}|mince\\mince.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\mince\\mince\\inputs.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{35EEE6B9-25CB-4017-B1BE-C0775E3C1681}|mince\\mince.csproj|solutionrelative:mince\\inputs.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,21 +18,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "inputs.txt",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\mince\\mince\\inputs.txt",
+              "RelativeDocumentMoniker": "mince\\inputs.txt",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\mince\\mince\\inputs.txt",
+              "RelativeToolTip": "mince\\inputs.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-09T14:36:34.438Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\mince\\mince\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\mince\\mince\\Program.cs",
               "RelativeDocumentMoniker": "mince\\Program.cs",
-              "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\mince\\mince\\Program.cs",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\mince\\mince\\Program.cs",
               "RelativeToolTip": "mince\\Program.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAkwI4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAYwE4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-09T07:03:41.685Z",
               "EditorCaption": ""
