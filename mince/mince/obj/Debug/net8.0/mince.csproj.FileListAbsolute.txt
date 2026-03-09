@@ -1,0 +1,15 @@
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\bin\Debug\net8.0\mince.exe
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\bin\Debug\net8.0\mince.deps.json
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\bin\Debug\net8.0\mince.runtimeconfig.json
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\bin\Debug\net8.0\mince.dll
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\bin\Debug\net8.0\mince.pdb
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\mince.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\mince.AssemblyInfoInputs.cache
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\mince.AssemblyInfo.cs
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\mince.csproj.CoreCompileInputs.cache
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\mince.sourcelink.json
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\mince.dll
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\refint\mince.dll
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\mince.pdb
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\mince.genruntimeconfig.cache
+C:\Users\bernatj\source\repos\programko-repo\mince\mince\obj\Debug\net8.0\ref\mince.dll
