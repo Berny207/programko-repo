@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\janbe\\source\\repos\\programko-repo\\batoh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3EBF424-D49B-4D81-920E-8797CFF801A1}|batoh.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\batoh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3EBF424-D49B-4D81-920E-8797CFF801A1}|batoh.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3EBF424-D49B-4D81-920E-8797CFF801A1}|batoh.csproj|c:\\users\\janbe\\source\\repos\\programko-repo\\batoh\\inputs.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C3EBF424-D49B-4D81-920E-8797CFF801A1}|batoh.csproj|solutionrelative:inputs.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "inputs.txt",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\batoh\\inputs.txt",
+              "RelativeDocumentMoniker": "inputs.txt",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\batoh\\inputs.txt",
+              "RelativeToolTip": "inputs.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-03-09T14:47:59.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\janbe\\source\\repos\\programko-repo\\batoh\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\janbe\\source\\repos\\programko-repo\\batoh\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwBgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T14:41:26.107Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
