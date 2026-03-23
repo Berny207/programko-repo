@@ -1,0 +1,15 @@
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\bin\Debug\net8.0\prace.exe
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\bin\Debug\net8.0\prace.deps.json
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\bin\Debug\net8.0\prace.runtimeconfig.json
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\bin\Debug\net8.0\prace.dll
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\bin\Debug\net8.0\prace.pdb
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\prace.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\prace.AssemblyInfoInputs.cache
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\prace.AssemblyInfo.cs
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\prace.csproj.CoreCompileInputs.cache
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\prace.sourcelink.json
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\prace.dll
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\refint\prace.dll
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\prace.pdb
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\prace.genruntimeconfig.cache
+C:\Users\bernatj\source\repos\programko-repo\prace\prace\obj\Debug\net8.0\ref\prace.dll

@@ -42,8 +42,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -54,8 +58,7 @@
               "RelativeToolTip": "MVVMPexeso\\Model\\Position.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T08:04:07.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T08:04:07.972Z"
             },
             {
               "$type": "Document",
@@ -67,8 +70,7 @@
               "RelativeToolTip": "MVVMPexeso\\Model\\GameBoard.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T07:56:45.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T07:56:45.347Z"
             },
             {
               "$type": "Document",
@@ -79,8 +81,7 @@
               "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\App.xaml",
               "RelativeToolTip": "MVVMPexeso\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-23T07:49:48.349Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T07:49:48.349Z"
             },
             {
               "$type": "Document",
@@ -92,8 +93,7 @@
               "RelativeToolTip": "MVVMPexeso\\ViewModel\\SquareViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T07:36:12.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T07:36:12.526Z"
             },
             {
               "$type": "Document",
@@ -103,7 +103,7 @@
               "RelativeDocumentMoniker": "MVVMPexeso\\ViewModel\\MainWindowViewModel.cs",
               "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\ViewModel\\MainWindowViewModel.cs",
               "RelativeToolTip": "MVVMPexeso\\ViewModel\\MainWindowViewModel.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAkwGwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-23T07:35:17.787Z",
               "EditorCaption": ""
@@ -118,8 +118,7 @@
               "RelativeToolTip": "MVVMPexeso\\Model\\Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T07:31:23.468Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T07:31:23.468Z"
             },
             {
               "$type": "Document",
@@ -131,8 +130,7 @@
               "RelativeToolTip": "MVVMPexeso\\Model\\Square.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAYwCgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-23T07:31:10.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T07:31:10.514Z"
             },
             {
               "$type": "Document",
@@ -143,8 +141,7 @@
               "ToolTip": "C:\\Users\\bernatj\\source\\repos\\programko-repo\\MVVMPexeso\\MVVMPexeso\\MainWindow.xaml",
               "RelativeToolTip": "MVVMPexeso\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-23T07:23:12.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-23T07:23:12.212Z"
             }
           ]
         }
