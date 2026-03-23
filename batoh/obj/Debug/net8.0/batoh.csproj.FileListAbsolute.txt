@@ -1,0 +1,15 @@
+C:\Users\janbe\source\repos\programko-repo\batoh\bin\Debug\net8.0\batoh.exe
+C:\Users\janbe\source\repos\programko-repo\batoh\bin\Debug\net8.0\batoh.deps.json
+C:\Users\janbe\source\repos\programko-repo\batoh\bin\Debug\net8.0\batoh.runtimeconfig.json
+C:\Users\janbe\source\repos\programko-repo\batoh\bin\Debug\net8.0\batoh.dll
+C:\Users\janbe\source\repos\programko-repo\batoh\bin\Debug\net8.0\batoh.pdb
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\batoh.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\batoh.AssemblyInfoInputs.cache
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\batoh.AssemblyInfo.cs
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\batoh.csproj.CoreCompileInputs.cache
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\batoh.sourcelink.json
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\batoh.dll
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\refint\batoh.dll
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\batoh.pdb
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\batoh.genruntimeconfig.cache
+C:\Users\janbe\source\repos\programko-repo\batoh\obj\Debug\net8.0\ref\batoh.dll
