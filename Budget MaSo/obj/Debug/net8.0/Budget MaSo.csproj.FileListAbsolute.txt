@@ -1,0 +1,15 @@
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\bin\Debug\net8.0\Budget MaSo.exe
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\bin\Debug\net8.0\Budget MaSo.deps.json
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\bin\Debug\net8.0\Budget MaSo.runtimeconfig.json
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\bin\Debug\net8.0\Budget MaSo.dll
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\bin\Debug\net8.0\Budget MaSo.pdb
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\Budget MaSo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\Budget MaSo.AssemblyInfoInputs.cache
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\Budget MaSo.AssemblyInfo.cs
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\Budget MaSo.csproj.CoreCompileInputs.cache
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\Budget MaSo.sourcelink.json
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\Budget MaSo.dll
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\refint\Budget MaSo.dll
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\Budget MaSo.pdb
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\Budget MaSo.genruntimeconfig.cache
+C:\Users\janbe\source\repos\programko-repo\Budget MaSo\obj\Debug\net8.0\ref\Budget MaSo.dll
