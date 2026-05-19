@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Budget MaSo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67bce4fa9d456e2f764c4a58c879902db687ab2b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ccf602ee5fd690e3c4f74388baf8e99f6a98050")]
 [assembly: System.Reflection.AssemblyProductAttribute("Budget MaSo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Budget MaSo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
