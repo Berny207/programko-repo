@@ -9,10 +9,11 @@ namespace Budget_MaSo
 		public static Action[] MediumTasks = new Action[] { DivisionTask, SquareTask, TriangleTask};
         public static Action[] HardTasks = new Action[] { ModuloTask, PowerTask, PythagoryanTheorem};
 		public static int points = 0;
-        public const int EASY_POINTS = 10;
-        public const int MEDIUM_POINTS = 20;
-        public const int HARD_POINTS = 40;
-        public const int TICKET_COST = 80;
+        public const int EASY_POINTS = 5;
+        public const int MEDIUM_POINTS = 10;
+        public const int HARD_POINTS = 20;
+        public const int TICKET_COST = 100;
+        public const int PROGRAMMING_TICKET_COST = 200;
 		static void ProcessInput(string args)
         {
             switch (args)
@@ -30,22 +31,53 @@ namespace Budget_MaSo
                     HardTask();
                     break;
                 case "lístek":
-                    if (points >= TICKET_COST)
-                    {
-                        points -= TICKET_COST;
-                        Console.WriteLine($"Lístek zakoupen! Máte {points} bodů.");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Nemáte dostatek bodů pro nákup lístku. Potřebujete ještě {TICKET_COST - points} bodů.");
-                    }
+                    BuyTicket();
+					break;
+                case "listek":
+                    BuyTicket();
+                    break;
+                case "l":
+                    BuyTicket();
+                    break;
+				case "plístek":
+                    BuyProgrammingTicket();
+                    break;
+                case "plistek":
+                    BuyProgrammingTicket();
+                    break;
+                case "pl":
+                    BuyProgrammingTicket();
                     break;
 				default:
-                    Console.WriteLine("Neplatný vstup. Zadejte 0 pro ukončení programu, 1 pro snadný úkol, 2 pro střední úkol nebo 3 pro těžký úkol. Zadejte lístek pokud si chcete koupit lístek za 50 bodů");
+                    Console.WriteLine($"Neplatný vstup. Zadejte 0 pro ukončení programu, 1 pro snadný úkol, 2 pro střední úkol nebo 3 pro těžký úkol. Zadejte lístek pokud si chcete koupit lístek za {TICKET_COST} bodů");
                     break;
 			}
         }
-        static void EndProgram()
+        static void BuyProgrammingTicket()
+        {
+            if (points >= PROGRAMMING_TICKET_COST)
+            {
+                points -= PROGRAMMING_TICKET_COST;
+                Console.WriteLine($"Programovací lístek zakoupen! Máte {points} bodů.");
+            }
+            else
+            {
+                Console.WriteLine($"Nemáte dostatek bodů pro nákup programovacího lístku. Potřebujete ještě {PROGRAMMING_TICKET_COST - points} bodů.");
+            }
+        }
+        static void BuyTicket()
+        {
+            if (points >= TICKET_COST)
+            {
+                points -= TICKET_COST;
+                Console.WriteLine($"Lístek zakoupen! Máte {points} bodů.");
+            }
+            else
+            {
+                Console.WriteLine($"Nemáte dostatek bodů pro nákup lístku. Potřebujete ještě {TICKET_COST - points} bodů.");
+            }
+		}
+		static void EndProgram()
         {
             Environment.Exit(67);
 		}
@@ -87,7 +119,7 @@ namespace Budget_MaSo
         static void DivisionTask()
         {
 			int num1 = random.Next(1, 10);
-			int solution = random.Next(0, 10);
+			int solution = random.Next(1, 100);
 			Console.WriteLine($"{num1*solution} / {num1}");
 			EvaluateTask(solution, MEDIUM_POINTS);
 		}
@@ -104,9 +136,9 @@ namespace Budget_MaSo
 		}
         static void TriangleTask()
         {
-            int a = random.Next(1, 20);
-            int b = random.Next(1, 20);
-			int c = random.Next(1, 20);
+            int a = random.Next(1, 40);
+            int b = random.Next(1, 40);
+			int c = random.Next(1, 40);
             Console.WriteLine($"Vypočítej obvod trojúhelníku s délkami stran {a} cm, {b} cm a {c} cm. Pokud délky stran nedávají validní trojúhelník, napiš obvod 0.");
             int solution = 0;
             if (a + b > c && a + c > b && b + c > a)
@@ -117,22 +149,22 @@ namespace Budget_MaSo
 		}
         static void ModuloTask()
         {
-			int num1 = random.Next(10, 100);
-			int num2 = random.Next(0, 10);
+			int num1 = random.Next(10, 500);
+			int num2 = random.Next(1, 30);
             Console.WriteLine($"{num1} % {num2}");
             int solution = num1 % num2;
             EvaluateTask(solution, HARD_POINTS);
 		}
         static void PowerTask()
         {
-            int solution = random.Next(1, 10);
+            int solution = random.Next(1, 15);
             Console.WriteLine($"Jaké číslo musíme vynásobit samo sebou, abychom dostali {solution*solution}?");
             EvaluateTask(solution, HARD_POINTS);
 		}
         static void PythagoryanTheorem()
         {
-            int m = random.Next(1, 7);
-            int n = random.Next(1, 7);
+            int m = random.Next(1, 9);
+            int n = random.Next(1, 9);
 			if (n > m)
 			{
 				int temp = m;
